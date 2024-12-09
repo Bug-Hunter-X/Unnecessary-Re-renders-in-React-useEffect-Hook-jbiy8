@@ -1,0 +1,2 @@
+# Unnecessary Re-renders in React useEffect Hook
+This repository demonstrates a common issue with the React `useEffect` hook: unnecessary re-renders due to missing dependency array. The `useEffect` hook in `bug.js` runs after every render, leading to performance issues and excessive logging.  The solution, provided in `bugSolution.js`, adds a dependency array to optimize the hook's execution.
